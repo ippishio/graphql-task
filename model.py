@@ -1,9 +1,6 @@
-import typing
 import strawberry
 from datetime import datetime
 from dataclasses import dataclass, field
-from sqlalchemy import create_engine, MetaData, Table, Column, Integer, String, ARRAY, TIMESTAMP, DateTime, select, ForeignKey
-from sqlalchemy.orm import Session, registry, relationship
 
 @strawberry.type
 @dataclass
